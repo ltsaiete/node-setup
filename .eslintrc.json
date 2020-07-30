@@ -3,6 +3,17 @@
 		"es2020": true,
 		"node": true
 	},
+	"settings": {
+		"import/parsers": {
+			"@typescript-eslint/parser": [".ts"]
+		},
+
+		"import/resolver": {
+			"typescript": {
+				"project": "./"
+			}
+		}
+	},
 	"extends": [
 		"airbnb-base"
 	],
@@ -12,7 +23,8 @@
 		"sourceType": "module"
 	},
 	"plugins": [
-		"@typescript-eslint"
+		"@typescript-eslint",
+		"import"
 	],
 	"rules": {
 		"indent": [
