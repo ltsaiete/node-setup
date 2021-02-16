@@ -45,7 +45,6 @@
 			{
 				"ts": "never"
 			}
-		],
-		"import/no-unresolved": "error"
+		]
 	}
 }
