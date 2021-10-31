@@ -1,2 +1,2 @@
 # node-setup
-This is my setup for Node.js apps.
+This is how I start my apps with node.js
